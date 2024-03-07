@@ -14,7 +14,6 @@ datasource db {
 }
 
 model Feedback {
-  // id         Int  @id @default(autoincrement()) auto incremento
   id         String  @id @default(uuid())
   type       String
   comment    String
